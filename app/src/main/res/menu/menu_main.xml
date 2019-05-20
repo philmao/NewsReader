@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.newsreader.MainActivity">
+    <item
+        android:id="@+id/cnn_news"
+        android:orderInCategory="100"
+        android:title="@string/cnn_news"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/nyt_news"
+        android:orderInCategory="100"
+        android:title="@string/nyt_news"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/music_on_off"
+        android:orderInCategory="100"
+        android:title="@string/music_on_off"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">News Reader</string>
+    <string name="cnn_news">CNN</string>
+    <string name="nyt_news">New York Times</string>
+    <string name="music_on_off">Music On/Off</string>
+    <string name="cnn_api_key">71242659855b42c3a95cf28957a84440</string>
+    <string name="nyt_api_key">71242659855b42c3a95cf28957a84440</string>
+    <string name="cnn_web_service_url">https://newsapi.org/v2/top-headlines?sources=cnn\u0026q=</string>
+    <string name="nyt_web_service_url">https://newsapi.org/v2/top-headlines?sources=the-new-york-times\u0026q=</string>
+    <string name="nyt_real_web_service_url">https://api.nytimes.com/svc/search/v2/articlesearch.json?q=</string>
+    <string name="invalid_url">Invalid URL</string>
+    <string name="hint_text">Enter article topic</string>
+    <string name="read_error">Unable to read news data</string>
+    <string name="connect_error">Unable to connect to newsapi.org</string>
+    <string name="article_link">&lt;a href=\"%1$s\">%2$s&lt;/a></string>
+</resources>
